@@ -1,0 +1,7 @@
+\contentsline {chapter}{\numberline {1}Introduction}{5}%
+\contentsline {chapter}{\numberline {2}Literature survey}{6}%
+\contentsline {chapter}{\numberline {3}Prelimnary techniques}{7}%
+\contentsline {chapter}{\numberline {4}Proposed work}{8}%
+\contentsline {chapter}{\numberline {5}Results and analysis}{9}%
+\contentsline {chapter}{\numberline {6}Conclusion}{10}%
+\contentsline {chapter}{\numberline {A}Appendices}{11}%

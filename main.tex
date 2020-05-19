@@ -1,0 +1,61 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{appendix}
+\usepackage[a4paper, width=150mm, top=25mm, bottom=25mm]{geometry}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+% \fancyhead[RO, LE]{Thesis Title}
+
+
+\title{Thesis Title}
+\author{Vishal Pandey}
+\date{17th May 2020}
+
+\begin{document}
+
+\include{titlepage}
+
+
+\include{declaration}
+
+\include{certificate}
+
+\include{acknowledgement}
+
+\chapter*{Acknowledgement}
+I want to thanks me for everything
+
+
+\tableofcontents
+
+\chapter{Introduction}
+\input{chapters/introduction}
+
+\chapter{Literature survey}
+\input{chapters/chapter02}
+
+\chapter{Prelimnary techniques}
+\input{chapters/chapter03}
+
+\chapter{Proposed work}
+\input{chapters/chapter04}
+
+\chapter{Results and analysis}
+\input{chapters/results}
+
+\chapter{Conclusion}
+\input{chapters/conclusion}
+
+
+\appendix
+\chapter{Appendices}
+\input{chapters/appendix}
+
+
+
+
+\end{document}
