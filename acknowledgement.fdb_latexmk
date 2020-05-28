@@ -1,0 +1,10 @@
+# Fdb version 3
+["pdflatex"] 1590128634 "acknowledgement.tex" "acknowledgement.pdf" "acknowledgement" 1590128635
+  "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
+  "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1589690066 2432460 6d7bf6f84c68701a5c649b01ae1f0eb9 ""
+  "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
+  "acknowledgement.aux" 1590095055 641 40e79e5e08cdfc11198472afa4b7e251 ""
+  "acknowledgement.tex" 1590128633 1290 18c56f4023c21d9ff54dd88d0ebbf18b ""
+  (generated)
+  "acknowledgement.log"
+  "acknowledgement.pdf"

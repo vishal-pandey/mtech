@@ -1,0 +1,10 @@
+# Fdb version 3
+["pdflatex"] 1589953680 "introduction.tex" "introduction.pdf" "introduction" 1589953681
+  "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
+  "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1589690066 2432460 6d7bf6f84c68701a5c649b01ae1f0eb9 ""
+  "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
+  "introduction.aux" 1589953680 8 a94a2480d3289e625eea47cd1b285758 ""
+  "introduction.tex" 1589953680 34 26310ab3f9856ac5ac1e8f88472d16cc ""
+  (generated)
+  "introduction.log"
+  "introduction.pdf"

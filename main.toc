@@ -1,7 +1,79 @@
-\contentsline {chapter}{\numberline {1}Introduction}{5}%
-\contentsline {chapter}{\numberline {2}Literature survey}{6}%
-\contentsline {chapter}{\numberline {3}Prelimnary techniques}{7}%
-\contentsline {chapter}{\numberline {4}Proposed work}{8}%
-\contentsline {chapter}{\numberline {5}Results and analysis}{9}%
-\contentsline {chapter}{\numberline {6}Conclusion}{10}%
-\contentsline {chapter}{\numberline {A}Appendices}{11}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Declaration}{ii}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Certificate}{iii}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Acknowledgement}{iv}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Abstract}{vi}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of figures}{vi}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of tables}{vii}%
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }List of abbreviation}{viii}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}%
+\contentsline {section}{\numberline {1.1}Overview}{1}%
+\contentsline {section}{\numberline {1.2}Wireless Sensor Network}{1}%
+\contentsline {section}{\numberline {1.3}Deep Learning and Data Science}{4}%
+\contentsline {section}{\numberline {1.4}Transfer Learning}{7}%
+\contentsline {section}{\numberline {1.5}Challenges and Problem Identification}{9}%
+\contentsline {section}{\numberline {1.6}Motivation}{10}%
+\contentsline {section}{\numberline {1.7}Research Objective}{10}%
+\contentsline {section}{\numberline {1.8}Methodology}{10}%
+\contentsline {section}{\numberline {1.9}Thesis Organisation}{10}%
+\contentsline {section}{\numberline {1.10}Summary}{10}%
+\contentsline {chapter}{\numberline {2}Literature Survey}{12}%
+\contentsline {section}{\numberline {2.1}Overview}{12}%
+\contentsline {section}{\numberline {2.2}Related Literature}{12}%
+\contentsline {section}{\numberline {2.3}Summary}{14}%
+\contentsline {chapter}{\numberline {3}Prelimnary Techniques}{16}%
+\contentsline {section}{\numberline {3.1}Overview}{16}%
+\contentsline {section}{\numberline {3.2}VLSW Protocol}{16}%
+\contentsline {section}{\numberline {3.3}Sequence to Sequence Imputation Model}{16}%
+\contentsline {section}{\numberline {3.4}Implementation Tools}{17}%
+\contentsline {subsection}{\numberline {3.4.1}Python}{17}%
+\contentsline {subsection}{\numberline {3.4.2}Scikit Learn}{17}%
+\contentsline {subsection}{\numberline {3.4.3}Tensorflow}{18}%
+\contentsline {subsection}{\numberline {3.4.4}Pandas}{18}%
+\contentsline {subsection}{\numberline {3.4.5}Matplotlib}{18}%
+\contentsline {subsection}{\numberline {3.4.6}Google Colab}{18}%
+\contentsline {section}{\numberline {3.5}Summary}{19}%
+\contentsline {chapter}{\numberline {4}Critical Analysis of Imputation Techniques}{20}%
+\contentsline {section}{\numberline {4.1}Overview}{20}%
+\contentsline {section}{\numberline {4.2}Regression}{20}%
+\contentsline {section}{\numberline {4.3}LSTM}{21}%
+\contentsline {section}{\numberline {4.4}CNN}{22}%
+\contentsline {section}{\numberline {4.5}SSIM}{22}%
+\contentsline {section}{\numberline {4.6}Summary}{23}%
+\contentsline {chapter}{\numberline {5}Proposed Work}{24}%
+\contentsline {section}{\numberline {5.1}Overview}{24}%
+\contentsline {section}{\numberline {5.2}System Model}{24}%
+\contentsline {subsection}{\numberline {5.2.1}Sensing Layer}{24}%
+\contentsline {subsection}{\numberline {5.2.2}Network Layer}{24}%
+\contentsline {subsection}{\numberline {5.2.3}Data Processing Layer}{24}%
+\contentsline {subsubsection}{Fault tolerance layer}{25}%
+\contentsline {subsection}{\numberline {5.2.4}Application layer}{25}%
+\contentsline {section}{\numberline {5.3}System Flow}{26}%
+\contentsline {subsection}{\numberline {5.3.1}Data Collection}{26}%
+\contentsline {subsection}{\numberline {5.3.2}Data Cleaning}{27}%
+\contentsline {subsection}{\numberline {5.3.3}Data Preprocessing}{27}%
+\contentsline {subsubsection}{Loading the data}{27}%
+\contentsline {subsubsection}{Removing unnecessary data}{28}%
+\contentsline {subsubsection}{Scaling the data}{28}%
+\contentsline {subsubsection}{Making dataset as input output pair for training}{28}%
+\contentsline {subsection}{\numberline {5.3.4}Finding Similar Dataset}{29}%
+\contentsline {subsection}{\numberline {5.3.5}Training deep neural network}{29}%
+\contentsline {subsubsection}{Spliting the dataset into training and test sets}{29}%
+\contentsline {subsubsection}{Training}{29}%
+\contentsline {subsection}{\numberline {5.3.6}Removing last layer of DNN}{29}%
+\contentsline {subsection}{\numberline {5.3.7}Adding more layer to the DNN}{29}%
+\contentsline {subsection}{\numberline {5.3.8}Retraining the model}{30}%
+\contentsline {section}{\numberline {5.4}Model Architecture}{32}%
+\contentsline {subsection}{\numberline {5.4.1}SSIM (Sequence to Sequence Imputation Model)}{32}%
+\contentsline {subsubsection}{Bidirectional LSTM layer}{32}%
+\contentsline {subsubsection}{Attenttion Layer}{32}%
+\contentsline {subsubsection}{LSTM Layer}{32}%
+\contentsline {subsubsection}{Dense Layer}{33}%
+\contentsline {subsection}{\numberline {5.4.2}CNN (Convolutional Neural Network)}{33}%
+\contentsline {subsubsection}{Conv1D Layer}{33}%
+\contentsline {subsubsection}{MaxPooling Layer}{33}%
+\contentsline {subsubsection}{Flatten Layer}{33}%
+\contentsline {subsubsection}{Dense Layer X 2}{33}%
+\contentsline {section}{\numberline {5.5}Summary}{34}%
+\contentsline {chapter}{\numberline {6}Results and Analysis}{35}%
+\contentsline {chapter}{\numberline {7}Conclusion}{38}%
+\contentsline {chapter}{\numberline {A}Screenshots of Implementation}{39}%

@@ -3,48 +3,75 @@
 
 \usepackage{graphicx}
 \graphicspath{{images/}}
+\usepackage{subcaption}
 \usepackage{appendix}
 \usepackage[a4paper, width=150mm, top=25mm, bottom=25mm]{geometry}
+% \usepackage{fancyhdr}
+\usepackage[section]{placeins}
 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
+% \pagestyle{fancy}
 % \fancyhead[RO, LE]{Thesis Title}
+
 
 
 \title{Thesis Title}
 \author{Vishal Pandey}
 \date{17th May 2020}
 
+\pagenumbering{roman}
+
 \begin{document}
+
 
 \include{titlepage}
 
-
 \include{declaration}
+\addcontentsline{toc}{chapter}{\numberline{}Declaration}
+\setcounter{page}{2}
 
 \include{certificate}
+\addcontentsline{toc}{chapter}{\numberline{}Certificate}
+\setcounter{page}{3}
 
 \include{acknowledgement}
+\addcontentsline{toc}{chapter}{\numberline{}Acknowledgement}
+\setcounter{page}{4}
 
-\chapter*{Acknowledgement}
-I want to thanks me for everything
+\include{abstract}
+\addcontentsline{toc}{chapter}{\numberline{}Abstract}
+\setcounter{page}{5}
 
+\listoffigures
+\addcontentsline{toc}{chapter}{\numberline{}List of figures}
+\setcounter{page}{6}
+
+\listoftables
+\addcontentsline{toc}{chapter}{\numberline{}List of tables}
+\setcounter{page}{7}
+
+\include{list-of-abbreviation}
+\addcontentsline{toc}{chapter}{\numberline{}List of abbreviation}
+\setcounter{page}{8}
 
 \tableofcontents
-
+\newpage
+\pagenumbering{arabic}
 \chapter{Introduction}
 \input{chapters/introduction}
 
-\chapter{Literature survey}
+\chapter{Literature Survey}
 \input{chapters/chapter02}
 
-\chapter{Prelimnary techniques}
+\chapter{Prelimnary Techniques}
 \input{chapters/chapter03}
 
-\chapter{Proposed work}
+\chapter{Critical Analysis of Imputation Techniques}
 \input{chapters/chapter04}
 
-\chapter{Results and analysis}
+\chapter{Proposed Work}
+\input{chapters/chapter05}
+
+\chapter{Results and Analysis}
 \input{chapters/results}
 
 \chapter{Conclusion}
@@ -52,10 +79,97 @@ I want to thanks me for everything
 
 
 \appendix
-\chapter{Appendices}
+\chapter{Screenshots of Implementation}
 \input{chapters/appendix}
 
+\begin{thebibliography}{}
+
+\bibitem{1}[M. Mousa, M. Abdulaal, S. Boyles and C. Claudel, "Wireless Sensor Network-Based Urban Traffic Monitoring Using Inertial Reference Data," 2015 International Conference on Distributed Computing in Sensor Systems, Fortaleza, 2015, pp. 206-207, doi: 10.1109/DCOSS.2015.21.
+
+\bibitem{2}[H. Furtado and R. Trobec, "Applications of wireless sensors in medicine," 2011 Proceedings of the 34th International Convention MIPRO, Opatija, 2011, pp. 257-261.
+
+\bibitem{3}[Bardella, A., Danieletto, M., Menegatti, E. et al. Autonomous robot exploration in smart environments exploiting wireless sensors and visual features. Ann. Telecommun. 67, 297–311 (2012). https://doi.org/10.1007/s12243-012-0305-z
+
+\bibitem{4}[M. R. M. Kassim and A. N. Harun, "Applications of WSN in agricultural environment monitoring systems," 2016 International Conference on Information and Communication Technology Convergence (ICTC), Jeju, 2016, pp. 344-349, doi: 10.1109/ICTC.2016.7763493.
+
+\bibitem{5}[@book{10.5555/1643457,
+author = {Mao, Guoqiang and Fidan, Baris and Mao, Guoqiang and Fidan, Baris},
+title = {Localization Algorithms and Strategies for Wireless Sensor Networks},
+year = {2009},
+isbn = {1605663964},
+publisher = {Information Science Reference - Imprint of: IGI Publishing},
+address = {Hershey, PA}
+}
+
+\bibitem{6}[J. Zhang, W. Li, Z. Yin, S. Liu and X. Guo, "Forest fire detection system based on wireless sensor network," 2009 4th IEEE Conference on Industrial Electronics and Applications, Xi'an, 2009, pp. 520-523, doi: 10.1109/ICIEA.2009.5138260.
+
+\bibitem{7}[Susanto, Hengky \& Chang, Chorng \& Lalooses, Francine. (2007). AN APPROACH FOR TRACKING WILDLIFE USING WIRELESS SENSOR NETWORKS. 
+
+\bibitem{8}[T. M. Thekkil and N. Prabakaran, "Real-time WSN based early flood detection and control monitoring system," 2017 International Conference on Intelligent Computing, Instrumentation and Control Technologies (ICICICT), Kannur, 2017, pp. 1709-1713, doi: 10.1109/ICICICT1.2017.8342828.
+
+\bibitem{9}[R. Das, S. Ghosh and D. Mukherjee, "Bayesian Estimator Based Weather Forecasting using WSN," 2018 3rd International Conference and Workshops on Recent Advances and Innovations in Engineering (ICRAIE), Jaipur, India, 2018, pp. 1-4, doi: 10.1109/ICRAIE.2018.8710410.
+
+\bibitem{10} https://www.electronicshub.org/wireless-sensor-networks-wsn/
+
+\bibitem{11} Matin, M.A. \& Islam, M.M. Overview of Wireless Sensor Network; IntechOpen: London, UK (2012)
+
+\bibitem{12} S. Sharma, R. K. Bansal and S. Bansal, "Issues and Challenges in Wireless Sensor Networks," 2013 International Conference on Machine Intelligence and Research Advancement, Katra, 2013, pp. 58-62, doi: 10.1109/ICMIRA.2013.18.
+
+\bibitem{13} Palm G. (1986) Warren McCulloch and Walter Pitts: A Logical Calculus of the Ideas Immanent in Nervous Activity. In: Palm G., Aertsen A. (eds) Brain Theory. Springer, Berlin, Heidelberg
+
+\bibitem{14} F. Q. Lauzon, "An introduction to deep learning," 2012 11th International Conference on Information Science, Signal Processing and their Applications (ISSPA), Montreal, QC, 2012, pp. 1438-1439, doi: 10.1109/ISSPA.2012.6310529.
+
+\bibitem{15} https://www.oreilly.com/library/view/deep-learning/9781491924570/ch04.html
+
+\bibitem{16} S. Albawi, T. A. Mohammed and S. Al-Zawi, "Understanding of a convolutional neural network," 2017 International Conference on Engineering and Technology (ICET), Antalya, 2017, pp. 1-6, doi: 10.1109/ICEngTechnol.2017.8308186.
+
+\bibitem{17} T. Liu, T. Wu, M. Wang, M. Fu, J. Kang and H. Zhang, "Recurrent Neural Networks based on LSTM for Predicting Geomagnetic Field," 2018 IEEE International Conference on Aerospace Electronics and Remote Sensing Technology (ICARES), Bali, 2018, pp. 1-5, doi: 10.1109/ICARES.2018.8547087.
+
+\bibitem{18} A. Pulver and S. Lyu, "LSTM with working memory," 2017 International Joint Conference on Neural Networks (IJCNN), Anchorage, AK, 2017, pp. 845-851, doi: 10.1109/IJCNN.2017.7965940.
+
+\bibitem{19} Weiss, K., Khoshgoftaar, T.M. \& Wang, D. A survey of transfer learning. J Big Data 3, 9 (2016). https://doi.org/10.1186/s40537-016-0043-6
+
+\bibitem{20} Bird, Jordan J.; Kobylarz, Jhonatan; Faria, Diego R.; Ekart, Aniko; Ribeiro, Eduardo P. (2020). "Cross-Domain MLP and CNN Transfer Learning for Biological Signal Processing: EEG and EMG". IEEE Access. Institute of Electrical and Electronics Engineers (IEEE). 8: 54789–54801. doi:10.1109/access.2020.2979074. ISSN 2169-3536
+
+\bibitem{21} Kim, T., \& Kim, H. Y. (2019). Forecasting stock prices with a feature fusion LSTM-CNN model using different representations of the same data. PLOS ONE, 14(2), e0212320.
+
+\bibitem{22} Kyunghyun Cho, Bart van Merri¨ enboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk and Yoshua Bengio. Learning Phrase Represen-tations using RNN Encoder–Decoder for Statistical Machine Translation
+
+\bibitem{23}  H. Verma and S. Kumar, “An accurate missing data prediction method using LSTM based deep learning for health care,” in Proc. 20th Int. Conf. Distrib. Comput. Netw., 2019, pp. 371–376
+
+\bibitem{24} D. S. Fung. Methods for the estimation of missing values in time series. 2006.
+
+\bibitem{25} A. C. Harvey. Forecasting, structural time series models and the Kalman filter. Cambridge university press, 1990.
+
+\bibitem{26} M. J. Azur, E. A. Stuart, C. Frangakis, and P. J. Leaf. Multiple imputation by chained equations: what is it and how does it work? International journal of methods in psychiatric research, 20(1):40–49, 2011.
+
+\bibitem{27} X. Yi, Y. Zheng, J. Zhang, and T. Li. St-mvl: filling missing values in geo-sensory time series data. 2016.
+
+\bibitem{28} J. Wang, A. P. De Vries, and M. J. Reinders. Unifying user-based and item-based collaborative filtering approaches by similarity fusion. In Proceedings of the 29th annual international ACM SIGIR conference on Research and development in information retrieval, pages 501–508. ACM, 2006.
+
+\bibitem{29} H. Yuan, G. Xu, Z. Yao, J.Jia, and Y.Zhang, “Imputation of missing data in time series for air pollutants using long short-term memory recurrent neural networks,” in Proc. ACM Int. Joint Conf. Int. Symp. Pervasive Ubiquitous Comput. Wearable Comput., 2018, pp. 1293–1300.
+
+\bibitem{30} Z. Che, S. Purushotham, K. Cho, D. Sontag, and Y. Liu. Recurrent neural networks for multivariate time series with missing values. Scientific reports, 8(1):6085, 2018.
 
 
+\bibitem{31}  Ilya Sutskever, Oriol Vinyals, and Quoc V. Le. 2014a. Sequence to sequence learning with neural networks. In Advances in Neural Information Processing Sys-tems 27: Annual Conference on Neural Information Processing Systems 2014, December 8-13 2014, Montreal, Quebec, Canada, pages 3104–3112.
+
+\bibitem{32}C. Leke, B. Twala, and T. Marwala, “Missing data prediction and classiﬁcation: The use of auto-associative neural networks and optimization algorithms,” arXiv preprint arXiv:1403.5488, 2014
+
+\bibitem{33} Kyunghyun Cho, Bart van Merri¨ enboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk and Yoshua Bengio. Learning Phrase Represen-tations using RNN Encoder–Decoder for Statistical Machine Translation
+
+\bibitem{34} Moghar, A., \& Hamiche, M. (2020). Stock Market Prediction Using LSTM Recurrent Neural Network. Procedia Computer Science, 170, 1168–1173. doi:10.1016/j.procs.2020.03.049 
+
+% \bibitem{35} 
+
+\bibitem{35}  Yang, Y., Guizhong, L.: Multivariate time series prediction based on neural networks applied to stock market. In: 2001 IEEE International Conference on Systems, Man and Cybernetics. e-Systems and e-Man for Cybernetics in Cyberspace (Cat. No. 01CH37236), vol. 4, IEEE (2001)
+
+\bibitem{36} Zhang, G.P.: Time series forecasting using a hybrid ARIMA and neural network model. Neurocomputing 50, 159–175 (2003)
+
+\bibitem{37}  J. Yang, M. N. Nguyen, P. P. San, X. Li, and S. Krishnaswamy, “Deep convolutional neural networks on multichannel time series for human activity recognition.” in Ijcai, vol. 15, 2015, pp. 3995–4001. 
+
+\bibitem{38} Zhang, Y.-F., Thorburn, P., Xiang, W., \& Fitch, P. (2019). SSIM -A Deep Learning Approach for Recovering Missing Time Series Sensor Data. IEEE Internet of Things Journal, 1–1. doi:10.1109/jiot.2019.2909038 
+
+\end{thebibliography}
 
 \end{document}
